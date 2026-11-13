@@ -1,0 +1,23 @@
+# Secretos (nunca subir claves reales)
+.streamlit/secrets.toml
+secrets.toml.local
+.env
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
